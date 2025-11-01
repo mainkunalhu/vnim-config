@@ -20,6 +20,7 @@ vim.g.maplocalleader = "\\"
 require("lazy").setup({
   spec = {
     { import = "plugins" },
+    {import = "plugins.lspserver"} 
   },
   change_detection = { notify = false },
 })

@@ -13,12 +13,6 @@ return {
                 close_if_last_window = true,
                 popup_border_style = "rounded",
             })
-            vim.cmd([[
-  highlight NeoTreeNormal guibg=NONE ctermbg=NONE
-  highlight NeoTreeNormalNC guibg=NONE ctermbg=NONE
-  highlight NeoTreeEndOfBuffer guibg=NONE ctermbg=NONE
-	    ]])
         end
-
     }
 }
